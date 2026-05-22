@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+redis
+fastapi-cache2[redis]
+alembic
+asyncpg
+jinja2
+psycopg2-binary
+pydantic-settings
+PyJWT
+passlib
+pytest

@@ -1,0 +1,19 @@
+Metadata-Version: 2.4
+Name: stack-trace-api
+Version: 0.1.0
+Summary: Stack Trace API
+Author-email: Arthur <tishko.artyr@gmail.com>
+Requires-Python: >=3.12
+Requires-Dist: fastapi
+Requires-Dist: uvicorn[standard]
+Requires-Dist: sqlalchemy
+Requires-Dist: redis
+Requires-Dist: fastapi-cache2[redis]
+Requires-Dist: alembic
+Requires-Dist: asyncpg
+Requires-Dist: jinja2
+Requires-Dist: psycopg2-binary
+Requires-Dist: pydantic-settings
+Requires-Dist: PyJWT
+Requires-Dist: passlib
+Requires-Dist: pytest

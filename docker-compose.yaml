@@ -1,0 +1,6 @@
+name: stack-trace
+
+include:
+  - infra/docker-compose.infra.yaml
+  - frontend/stack-trace/docker-compose.front.yaml
+  - backend/stack-trace/docker-compose.back.yaml
